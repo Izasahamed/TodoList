@@ -1,0 +1,59 @@
+#logo-name{
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.form-box{
+    width:350px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin:100px auto;
+}
+.form-box form input{
+    width:100%;
+    border:1px solid #777;
+}
+#listing{
+    width:400px;
+    height:fit-content;
+    background-color: #fff;
+    padding:20px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin:100px auto;
+}
+.listitems{
+    background-color: #777;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;
+    list-style: none;
+    border-radius: 30px;
+    padding:12px;
+    margin:10px 0;
+}
+.listitems:hover{
+    background-color:#fff;
+    color:#000;
+    font-weight: bold;
+    border: 1px solid #777;
+    border-radius: 0;
+    transition: 0.2s;
+}
+
+.food-stack{
+    background-color: blue;
+    width:300px;
+    height: 400px;
+    color:white;
+}
+.btnStyle{
+   border:0;
+   outline:none;
+   width:30px;
+}
